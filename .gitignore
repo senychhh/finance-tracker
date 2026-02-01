@@ -1,0 +1,15 @@
+# Markdown — не коммитим
+*.md
+
+# Dependencies & build
+node_modules/
+dist/
+
+# Env & secrets
+.env
+.env.local
+.env.*.local
+
+# Logs & OS
+*.log
+.DS_Store
