@@ -10,6 +10,9 @@ export interface User {
   created_at: Date;
 }
 
+/** User without password, for API responses (auth, profile). */
+export type UserPublic = Omit<User, 'password_hash'>;
+
 export interface Account {
   id: number;
   user_id: number;
